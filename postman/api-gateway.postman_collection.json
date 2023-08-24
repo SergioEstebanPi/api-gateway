@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "cc9b135b-f583-419b-9a28-809189d1c6d8",
+		"name": "api-gateway",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28422949"
+	},
+	"item": [
+		{
+			"name": "localhost:8765/quiz-service/quiz/get/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8765/quiz-service/quiz/get/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8765",
+					"path": [
+						"quiz-service",
+						"quiz",
+						"get",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:8765/quiz-service/quiz/get/1",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8765/quiz-service/quiz/get/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8765",
+							"path": [
+								"quiz-service",
+								"quiz",
+								"get",
+								"1"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "localhost:8765/question-service/question/get/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8765/question-service/question/allQuestions",
+					"host": [
+						"localhost"
+					],
+					"port": "8765",
+					"path": [
+						"question-service",
+						"question",
+						"allQuestions"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "localhost:8765/question-service/question/get/1",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8765/question-service/question/allQuestions",
+							"host": [
+								"localhost"
+							],
+							"port": "8765",
+							"path": [
+								"question-service",
+								"question",
+								"allQuestions"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		}
+	]
+}
